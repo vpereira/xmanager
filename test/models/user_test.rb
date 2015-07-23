@@ -1,7 +1,13 @@
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+
+  test "user one should have a group" do
+    assert_not_nil User.find_by(name:"Foo Bar")
+  end
+
+  test "testing scope without_team" do
+    assert_equal "baba@example.org",User.without_team.first.email
+  end
+
 end

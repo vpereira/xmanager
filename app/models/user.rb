@@ -1,6 +1,8 @@
 class User < ActiveRecord::Base
-  enum role: [:user, :vip, :admin]
+  enum role: [:user, :admin]
   after_initialize :set_default_role, :if => :new_record?
+  belongs_to :team
+  scope :without_team, -> { where(team_id:nil) }
 
   def set_default_role
     self.role ||= :user
