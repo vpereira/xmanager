@@ -47,6 +47,8 @@ Screenshots
 ![login](https://cloud.githubusercontent.com/assets/37418/8873515/a65c120c-3207-11e5-97ab-37aef2d0c143.png)
 ![teams](https://cloud.githubusercontent.com/assets/37418/8873550/edfe8464-3207-11e5-95fc-d19389ef791f.png)
 ![running tasks](https://cloud.githubusercontent.com/assets/37418/8873562/1aceacda-3208-11e5-9995-0c147309ef5a.png)
+![create new team](https://cloud.githubusercontent.com/assets/37418/8873621/9944354e-3208-11e5-9df0-3a9cf8f64c04.png)
+
 License
 -------
 
