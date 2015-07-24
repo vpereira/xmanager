@@ -23,6 +23,7 @@ run the following commands:
     rails server # to login as admin: user xavier@example.com, passwd changeme
 
 to run the tests
+    
     RAILS_ENV=test rake db:create
     RAILS_ENV=test rake db:migrate
     RAILS_ENV=test rake db:fixtures:load
