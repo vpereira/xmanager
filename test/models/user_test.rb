@@ -10,4 +10,7 @@ class UserTest < ActiveSupport::TestCase
     assert_equal "baba@example.org",User.without_team.first.email
   end
 
+  test "refut user without name" do
+    refute User.new.save
+  end
 end

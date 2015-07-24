@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
   after_initialize :set_default_role, :if => :new_record?
   belongs_to :team
   scope :without_team, -> { where(team_id:nil) }
-
+  validates :name, presence: true
   def set_default_role
     self.role ||= :user
   end

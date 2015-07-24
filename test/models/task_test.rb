@@ -13,4 +13,7 @@ class TaskTest < ActiveSupport::TestCase
   test "scope open" do
     assert_equal 2,Task.open.size
   end
+  test "refut Task without name" do
+    refute Task.new.save
+  end
 end
