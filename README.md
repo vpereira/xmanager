@@ -1,21 +1,6 @@
 Xmanager
 ================
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
-
-Rails Composer is open source and supported by subscribers. Please join RailsApps to support development of Rails Composer.
-
-Problems? Issues?
------------
-
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
-
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
-
 Ruby on Rails
 -------------
 
@@ -29,9 +14,26 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 Getting Started
 ---------------
 
+run the following commands:
+
+    bundle Install
+    rake db:create
+    rake db:migrate
+    rake db:seed
+    rails server # to login as admin: user xavier@example.com, passwd changeme
+
+to run the tests
+    RAILS_ENV=test rake db:create
+    RAILS_ENV=test rake db:migrate
+    RAILS_ENV=test rake db:fixtures:load
+    RAILS_ENV=test rake test:all:db
+
 Documentation and Support
 -------------------------
 
+   All users have the password changeme
+
+   Create Teams and Tasks. Assign users to teams. Control if the tasks are done.
 Issues
 -------------
 
