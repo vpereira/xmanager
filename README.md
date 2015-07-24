@@ -16,7 +16,7 @@ Getting Started
 
 run the following commands:
 
-    bundle Install
+    bundle install
     rake db:create
     rake db:migrate
     rake db:seed
