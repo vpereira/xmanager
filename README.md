@@ -41,17 +41,13 @@ Documentation and Support
    * Assign tasks to teams
    * Set tasks to done.
 
-Issues
--------------
 
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
+Screenshots
+-----------
+![login](https://cloud.githubusercontent.com/assets/37418/8873515/a65c120c-3207-11e5-97ab-37aef2d0c143.png)
+![teams](https://cloud.githubusercontent.com/assets/37418/8873550/edfe8464-3207-11e5-95fc-d19389ef791f.png)
+![running tasks](https://cloud.githubusercontent.com/assets/37418/8873562/1aceacda-3208-11e5-9995-0c147309ef5a.png)
 License
 -------
+
+MIT
