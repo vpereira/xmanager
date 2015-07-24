@@ -1,3 +1,12 @@
 // Place all the styles related to the teams controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.panel-body {
+  display: flex;
+}
+.team-members {
+  width: 600px;
+}
+.team-tasks {
+  flex-grow: 1; //html 5
+}

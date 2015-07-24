@@ -3,7 +3,7 @@
 
   <div class="form-inputs">
     <%= f.input :team_id, collection: Team.all,
-    as: :check_boxes, include_hidden: false %>
+    as: :radio_buttons %>
     <%= f.input :name %>
   </div>
 
