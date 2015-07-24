@@ -16,8 +16,9 @@ ActiveRecord::Schema.define(version: 20150723083756) do
   create_table "tasks", force: :cascade do |t|
     t.integer  "team_id"
     t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.boolean  "finished",   default: false
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
   create_table "teams", force: :cascade do |t|

@@ -3,7 +3,12 @@
 one:
   team_id: 1
   name: "My Task 1"
-
+  
 two:
   team_id: 1
   name: "My Task 2"
+
+three:
+  team_id: 1
+  name: "My Task 3"
+  finished: true
